@@ -51,7 +51,7 @@ const kaclCast = [
 
 // More examples and documentation here: https://www.npmjs.com/package/cors
 // CORS - Enable ALL routes and domains
-app.use(cors());
+// app.use(cors());
 
 // CORS - configuration
 // This is the default CORS configuration:
@@ -88,12 +88,12 @@ app.use(cors());
 //     res.json({msg: 'This is not a shared resource'});
 // });
 // app.get('/cast', cors(), function (req, res, next) {
-//     res.json({msg: 'This is CORS-enabled for a Single Route', kaclCast: cast });
+//     res.json({msg: 'This is CORS-enabled for a Single Route', kaclCast: kaclCast });
 // });
 
 // CORS - Enable a Single Route - with configuration
 // app.get('/cast', cors(corsOptions), function (req, res, next) {
-//     res.json({msg: 'This is CORS-enabled for a Single Route', kaclCast: cast});
+//     res.json({msg: 'This is CORS-enabled for a Single Route', kaclCast: kaclCast});
 // });
 
 // CORS - NOT ENABLED
