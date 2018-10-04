@@ -5,7 +5,7 @@
 ## This repository houses :
 
 - a client side app that calls a server to display a list of cast members from the 90's sitcom _Frasier_.
-- a server application that has a lost of CORS enabled examples, of which return the list of cast members
+- a server application that has a lot of CORS enabled examples, of which return the list of cast members
 
 ## Set up
 ### Pre-requisites:
